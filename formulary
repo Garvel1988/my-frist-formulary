@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Mi primer formulario</h1>
+
+<form action="resultados.html" method="get">
+
+<fieldset>
+<label for="nombre">
+    nombre:  
+ </label> 
+ <br>
+<input type="text" id="nombre" name="nombre" required>
+<br>
+<label for="apellidos">
+    Apellidos
+</label>
+<br>
+<input type="text" name="apellidos" id="apellidos">    
+</fieldset>
+
+<br><br>
+
+<fieldset>
+<label for="email">
+correo electronico:
+</label>
+<br>
+<input type="email" id="email" name="email" required>
+<br>
+<label for="telefono">
+    escribe tu telefono
+</label>
+<br>
+<input type="tel" id="telefono" name="telefono">
+</fieldset>
+
+<br><br>
+
+<fieldset>
+<label for="color">
+cual es tu color favorito?
+</label>
+<input type="color" name="color" id="color">
+<br>
+<label for="valoracion">
+    Como valoras keepcoding academy
+</label>
+<input type="number" name="valoracion" id="valoracion" value="10">
+<br>
+<label for="bio">
+ Biografia   
+</label>
+<br>
+<textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+<input type="submit" value="Enviar formulario">
+</fieldset>
+
+
+
+</form>
+</body>
+</html>
